@@ -1,4 +1,19 @@
 /* CSS designed by Robert M. Erickson */
+/*Will bring the enitre header with the menu
+header{
+padding: 2px 0px 4px 0px;
+margin: 0px;
+background-color: black;
+margin: -3px 0px 0px 0px;
+position: fixed;
+width: 1193px;
+color: white;
+}
+#studentInfo{
+position: fixed;
+top: 46px;
+color: white;
+}*/
 
 /* ===================  General Section  ==================================== */
 @import url('reset.css');
@@ -80,6 +95,15 @@ ol ol li {
 	color: #fff;
 	padding:10px;
 }
+header{
+/* 		padding: 2px 0px 4px 0px;
+		margin: 0px;
+		background-color: black;
+		margin: -3px 0px 0px 0px;
+		position: fixed;
+		width: 976px;
+		color: white; */
+}
 
 #header a:link{
 	color: #fff;
@@ -90,7 +114,7 @@ ol ol li {
 }
 
 #classtitle{
-	font-size:20pt; 
+	font-size:13pt; 
 	font-weight:bold;
 }
 
@@ -99,26 +123,40 @@ ol ol li {
 }
 
 #toolmenu{
+	text-align: right;
+	padding-right: 20px;
+	font-size: 12pt;
+	font-weight: bold;
 	float:right;
 }
-#toolmenu ol li:first-child {
+#toolmenu ol{
+	padding: 0;
+	display: none;
+}
+/* #toolmenu ol li:first-child {
 display:none;
 }
 #toolmenu li:nth-child(2){
 display:none;
-}
+} */
 /* ===================  Student Info Section  =============================== */
 #studentInfo{
-	border: thick dashed #3B5998;
+	/*border: thick dashed #3B5998;*/
 	color:black;
 	float: left;
-	margin: 1em;
-	padding: .7em;
-	width: 16%;
+	margin-left:.5em;
+	font-size:12pt;
+	font-weight:bold;
+/* 		position: fixed;
+		top: 37px;
+		color: white; */
+	/*margin: 1em;
+	padding: .7em;*/
+	/*width: 16%;*/
 }
 
 #studentGrade{
-	display:block;
+	display:inline;
 }	
 
 #studentGrade a:visited{
@@ -126,7 +164,7 @@ display:none;
 }	
 
 #classRank{
-	display:block;
+	display:inline;
 }
 
 .noticeMe{ /* -------    for guests who are not registered , not accpeted submission */ 
@@ -138,64 +176,76 @@ display:none;
 
 /* ===================  Main Navigation Section  ============================ */
 #mainMenu{
-	border-bottom: thin solid #3B5998;
+	/*border-bottom: thin solid #3B5998;*/
 	float: left;
 	font-size: 10pt;
-	margin-top: 1.5em;
-	min-width: 50em;
+	margin-left: .5em;
+	/*min-width: 50em;*/
 	padding-bottom: 1.3em;
+	position:fixed;
+	top: 3px;
+	left:50%;
+	border-radius:10px;
+	padding: 5px 5px 5px 5px;
+	margin:5px;
 }
 
-#mainMenu ul{
-
+#mainMenu ol{
+	margin: 3px 0px 3px 0px;
+	padding: 0px 0px 0px 0px;
 }
 #mainMenu ol li:nth-child(5){
 display:none;
 }
 #mainMenu .activeLink a, #adminMenu .activeLink a{
-	color: #000;	
+	/*color: #000;	
 	background-color: #fff;
-	border-bottom: thick solid white;
+	border-bottom: thick solid white;*/
 }
 
 #mainMenu a, #adminMenu a{
 	text-decoration: none;
+	padding:5px;
 }
-
 .menuLink{
 	display: inline;
 }
 .menuLink a{	
-	border-left: thin solid gray;
+	/*border-left: thin solid gray;
 	border-top: thin solid gray;
 	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
+	border-top-right-radius: 8px;*/
 }
 
 .menuLink a:link{
-	background-color: #D8DFEA;
+	/*background-color: #D8DFEA;
 	border-left: thin solid #3B5998;
 	border-top: thin solid #3B5998;
 	border-right: thin solid #3B5998;
 	color: navy;
-	padding: 1em;
+	padding: 1em;*/
 }
 
 .menuLink a:visited{
-	background-color: #D8DFEA;
+	/*background-color: #D8DFEA;
 	border-left: thin solid #3B5998;
 	border-top: thin solid #3B5998;
 	border-right: thin solid #3B5998;
 	color: navy;
-	padding: 1em;
+	padding: 1em;*/
 }
 .menuLink a:hover{
-	background-color: #3B5998;
+	border-style: solid;
+	border-color: navy;
+	background: #D8DFEA;
+	border-radius:10px;
+	color:black;
+	/*background-color: #3B5998;
 	border-left: thin solid green;
 	border-top: thin solid green;
 	border-right: thin solid green;
 	color: white;
-	padding: 1em;	
+	padding: 1em;*/
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
@@ -212,6 +262,7 @@ display:none;
 
 /* ===================  Main Content Section  =============================== */
 #mainContent {
+		/* padding-top: 60px; */
 	background-color: white;
 	/*margin: auto;*/
 	overflow:auto;
@@ -951,16 +1002,6 @@ h1{
 #header a:hover{
 	background-color:#6D86B7;
 }
-
-#classtitle{
-	font-size:14px; 
-	font-weight:bold;
-}
-
-#toolmenu{
-	float:right;
-	margin-top: -1.1em;
-}
 #toolmenu ol li{
 	display:inline;
 }
@@ -1127,6 +1168,9 @@ because with max width
 
 
 }
+@media screen and (max-width: 1200px){
+
+}
 /*************************************************/
 @media screen and (min-width: 1200px){
 	body{
@@ -1138,5 +1182,41 @@ because with max width
 	}
 	#toolmenu:before {
 		content: 'min-width: 1200px';
-	}	
+	}
+	#mainMenu{
+		font-size:18px;
+		left: 46%;
+			background-color:black;
+	}
+	#toolmenu{
+		margin: 2px 0px 2px 0px;
+		font-size:13pt;
+	}
+	#classtitle{
+		font-size: 15pt;
+	}
+	#studentInfo{
+		font-size:13pt;
+		margin: -1px;
+	}
+/* 	header{
+		padding: 2px 0px 13px 0px;
+		margin: 0px;
+		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+		margin: -3px 0px 0px 0px;
+		position: fixed;
+		width: 1193px;
+		color: white;
+		border-radius:0px 0px 15px 15px;
+		opacity: 0.8;
+	}
+	#studentInfo{
+		position: fixed;
+		top: 46px;
+		color: white;
+		margin-left: 11px;
+	}
+	#mainContent{
+		padding-top: 60px;
+	}  */
 }
