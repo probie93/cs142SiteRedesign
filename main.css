@@ -1186,7 +1186,7 @@ because with max width
 	#mainMenu{
 		font-size:18px;
 		left: 46%;
-			background-color:black;
+			/*background-color:black;*/
 	}
 	#toolmenu{
 		margin: 2px 0px 2px 0px;
@@ -1199,7 +1199,7 @@ because with max width
 		font-size:13pt;
 		margin: -1px;
 	}
-/* 	header{
+ 	header{
 		padding: 2px 0px 13px 0px;
 		margin: 0px;
 		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
@@ -1211,6 +1211,7 @@ because with max width
 		opacity: 0.8;
 	}
 	#studentInfo{
+	/* kmgnsdn */
 		position: fixed;
 		top: 46px;
 		color: white;
@@ -1218,5 +1219,5 @@ because with max width
 	}
 	#mainContent{
 		padding-top: 60px;
-	}  */
+	}  
 }
