@@ -301,6 +301,18 @@ div[style*="background"], .code{
 	color: #ffcccc;
 }
 
+td.comments {
+    width: 627px;
+}
+
+td.category {
+    width: 220px;
+}
+
+td.grade {
+    width: 86px;
+}
+
 .failing {
 	background-color: red !important;
 }
