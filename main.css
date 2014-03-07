@@ -714,10 +714,10 @@ td.Jun div.date, td.Aug div.date{
 }
 	
 #calendar table td.atoday {
-	color: #C33;
-	font-weight: bold; 
-	background: #FF6; 
-	border: 1px solid black;
+color: darkblue;
+font-weight: bold;
+background: lightblue;
+border: 1px solid black;
 }
 
 /* ===================  Main Content Section  =============================== */
@@ -1232,4 +1232,16 @@ because with max width
 	#mainContent{
 		padding-top: 81px;
 	}  
+	#mainContent > table.vcalendar > tbody > tr {
+		height:110px;
+	}
+	#mainContent > table.vcalendar > tbody > tr#attendanceRow,#mainContent > table.vcalendar > tbody > tr#monthTitle ,#mainContent > table.vcalendar > tbody > tr#days  {
+		height:10px;
+	}
+	#mainContent > table.vcalendar > tbody > tr:first-child td {
+		border: 0px solid white;
+		border-width: 0px 10px;
+		border-radius:20px;
+	}
+	
 }
