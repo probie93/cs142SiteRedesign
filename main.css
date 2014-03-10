@@ -472,8 +472,26 @@ div.menu ul.menu li.menuAdmin{
 }
 
 #slide h1:first-child {
+    border-bottom: 1px solid #000000;
     float: left;
-    width: 40%;
+    width: auto;
+}
+
+#slide h2:nth-child(2) {
+    float: left;
+    text-align: right;
+    width: 50%;
+    color: red;
+}
+
+#slide h2:nth-child(4) {
+    font-size: 12pt;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#slide h2:nth-child(5) {
+    display: none;
 }
 
 #lectureSlide #otherMedia, #displayAssign #otherMedia, #lecture #otherMedia{
