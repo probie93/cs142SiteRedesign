@@ -386,6 +386,10 @@ table#grading, table#grading td, table#grading th{
 	font-family: Arial, Verdana, Geneva, Helvetica, sens-serif;
 }
 
+.comments > br {
+    line-height: 0;
+}
+
 /* ===================  Student List Section  =============================== */
 /* -------------------  only admins see this  ------------------------------- */
 #listStudents{
