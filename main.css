@@ -330,11 +330,6 @@ td.grade {
 	color: #000000;
 }
 
-.GradingStarted {
-	background-color: #fff000 !important; 
-	color: #000000 !important;
-}
-
 .NotGraded {
 	background-color: #aa0000; 
 	color: #ffffcc;
@@ -387,6 +382,11 @@ table#grading, table#grading td, table#grading th{
 
 .comments > br {
     line-height: 0;
+}
+
+table.standard td, table.standard th {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 /* ===================  Student List Section  =============================== */
