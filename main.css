@@ -467,6 +467,11 @@ div.menu ul.menu li.menuAdmin{
 	border-right: dashed thin #999;
 }
 
+#slide h1:first-child {
+    float: left;
+    width: 40%;
+}
+
 #lectureSlide #otherMedia, #displayAssign #otherMedia, #lecture #otherMedia{
 /*	float: right;
 	width: 17%; /* 331px / 900px */
