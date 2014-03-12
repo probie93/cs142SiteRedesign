@@ -18,7 +18,8 @@ color: white;
 /* ===================  General Section  ==================================== */
 @import url('reset.css');
 * {
-	font-size:12pt;
+        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: lighter;
 }
 
 
@@ -36,26 +37,21 @@ a{
 }
 a:link{
 	color: navy;
-	border-style: solid;
-	border-color: transparent;
 }
 a:visited{
 	color: #fff;
 }
 a:hover {
-	border-style: solid;
-	border-color: navy;
-	background: #D8DFEA;
+    
 }
 
 code{
    font-family: "Courier New", Courier, monospace 
 }
 h1, h2, h3 {
-	display:block;
-	font-weight:bold;	
+	display:block;	
 	margin:.8em 0 .2em 0;
-  padding:0;
+        padding:0;
 }
 
 h1{
@@ -114,8 +110,7 @@ header{
 }
 
 #classtitle{
-	font-size:13pt; 
-	font-weight:bold;
+	font-size:13pt;
 }
 
 .todaysdate{
@@ -126,7 +121,6 @@ header{
 	text-align: right;
 	padding-right: 20px;
 	font-size: 12pt;
-	font-weight: bold;
 	float:right;
 }
 #toolmenu ol{
@@ -146,7 +140,6 @@ display:none;
 	float: left;
 	margin-left:.5em;
 	font-size:12pt;
-	font-weight:bold;
 /* 		position: fixed;
 		top: 37px;
 		color: white; */
@@ -183,7 +176,7 @@ display:none;
 	/*min-width: 50em;*/
 	padding-bottom: 1.3em;
 	position:fixed;
-	top: 3px;
+	top: -10px;
 	left:50%;
 	border-radius:10px;
 	padding: 5px 5px 5px 5px;
@@ -204,8 +197,7 @@ display:none;
 }
 
 #mainMenu a, #adminMenu a{
-	text-decoration: none;
-	padding:5px;
+	padding: 10px;
 }
 .menuLink{
 	display: inline;
@@ -235,17 +227,7 @@ display:none;
 	padding: 1em;*/
 }
 .menuLink a:hover{
-	border-style: solid;
-	border-color: navy;
-	background: #D8DFEA;
-	border-radius:10px;
-	color:black;
-	/*background-color: #3B5998;
-	border-left: thin solid green;
-	border-top: thin solid green;
-	border-right: thin solid green;
-	color: white;
-	padding: 1em;*/
+	
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
@@ -761,7 +743,8 @@ border: 3px solid black;
 	text-align: left;
 }
 
-.submith1{font-weight: bold;
+.submit h1{
+        font-weight: bold;
 	font-size: 14pt;
 }
 
@@ -776,10 +759,10 @@ border: 3px solid black;
 }
 
 #studentInfo a:link {
-	color: navy;
+	color: #FFFFFF;
 }
 #studentInfo a:visited {
-	color: navy;
+	color: #FFFFFF;
 }
 
 .newGroup{
@@ -999,8 +982,6 @@ body{
 
 h1{
 	font-size: 1.5em; /* 24px / 16px */
-	font-style: italic;
-	font-weight: normal;
 }
 
 
@@ -1226,11 +1207,11 @@ because with max width
 			/*background-color:black;*/
 	}
 	#toolmenu{
-		margin: 2px 0px 2px 0px;
 		font-size:13pt;
 	}
 	#classtitle{
 		font-size: 15pt;
+                margin-left: 11px;
 	}
 	#studentInfo{
 		font-size:13pt;
@@ -1240,7 +1221,7 @@ because with max width
 		padding: 2px 0px 13px 0px;
 		margin: 0px;
 		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
-		margin: -3px 0px 0px 0px;
+		margin: -17px 0px 0px 0px;
 		position: fixed;
 		width: 1204px;
 		color: white;
@@ -1250,12 +1231,12 @@ because with max width
 	}
 	#studentInfo{
 		position: fixed;
-		top: 46px;
+		top: 35px;
 		color: white;
-		margin-left: 11px;
+		margin-left: 15px;
 	}
 	#mainContent{
-		padding-top: 81px;
+            padding-top: 70px;
 	}  
 	#mainContent > table.vcalendar > tbody > tr {
 		height:110px;
@@ -1266,7 +1247,7 @@ because with max width
 	#mainContent > table.vcalendar > tbody > tr:first-child td {
 		border: 0px solid white;
 		border-width: 0px 10px;
-		border-radius:20px;
+		border-radius: 20px;
 	}
 	
 }
