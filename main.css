@@ -36,16 +36,11 @@ body {
 }
 
 a{
-	border-width: .1em;
+    color: #000000;
 }
-a:link{
-	color: navy;
-}
-a:visited{
-	color: #fff;
-}
+
 a:hover {
-    
+    color:  #04859D;
 }
 
 code{
