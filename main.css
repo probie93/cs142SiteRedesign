@@ -272,20 +272,20 @@ div[style*="background"], .code{
 /* -------------------------------- */
 
 td.comments {
-    width: 627px;
+    width: 657px;
 }
 
 td.category {
-    width: 220px;
+    width: 207px;
 }
 
 td.grade {
-    width: 86px;
+    width: 77px;
 }
 
 #GradeCriteria{
   top: 75px;
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 #listStudents span.NotGraded {
@@ -322,13 +322,40 @@ table#grading, table#grading td, table#grading th{
 	color: white;
 	border: solid #000 1px;
 	background-color:  #3b90cc;
-	text-align: center;
 	padding: 4px; 
 }
 
 .standard td {
 	border: 1px solid black;
-	text-align: center;
+}
+
+tr.GradesReleased > td:nth-child(4n-3), tr.NotGraded > td:nth-child(4n-3) {
+    text-align: right;
+}
+
+tr.GradesReleased td:nth-child(4n-1) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+tr.GradesReleased > td:nth-child(4n-2), tr.NotGraded > td:nth-child(4n-2) {
+    text-align: center;
+}
+
+.standard th:nth-child(4n-3) {
+    text-align: right;
+}
+
+.standard th:nth-child(4n) {
+    text-align: center;
+}
+
+.standard th:nth-child(4n-2), .standard th:nth-child(4n-1) {
+    text-align: center;
+}
+
+.standard tr:nth-child(19n-13) {
+    display: none;
 }
 
 .comments > br {
