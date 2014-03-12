@@ -314,7 +314,6 @@ table#grading, table#grading td, table#grading th{
 	color: Black;
 	text-align: left;
 	background-color: white;
-	font-family: Arial;
 	border-collapse: collapse;
 }
 
@@ -324,14 +323,12 @@ table#grading, table#grading td, table#grading th{
 	border: solid #000 1px;
 	background-color:  #3b90cc;
 	text-align: center;
-	font-family: Arial, Verdana, Geneva, Helvetica, sens-serif;
 	padding: 4px; 
 }
 
 .standard td {
-	border: 1px dashed black;
+	border: 1px solid black;
 	text-align: center;
-	font-family: Arial, Verdana, Geneva, Helvetica, sens-serif;
 }
 
 .comments > br {
@@ -917,9 +914,7 @@ fieldset.slider input{
 }
 /* ===================  Footer Section        =============================== */
 footer {
-	background-color: #3B5998;
 	clear:both;
-	color: white;
 	height: 50px;      
 	left: 0;
 	margin-top: -50px; /* normally the negative value of footer height  */
