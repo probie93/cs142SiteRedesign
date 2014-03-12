@@ -22,6 +22,9 @@ color: white;
         font-weight: lighter;
 }
 
+header a:link, header a:visited {
+    color: #FFFFFF;
+} 
 
 html, body {height: 100%;}
 
