@@ -44,7 +44,7 @@ header a:hover, nav a:hover, aside a:hover {
 }
 
 article a:hover {
-    color: #0000FF !important;
+    color: #4869D6 !important;
 }
 
 code{
@@ -73,7 +73,7 @@ img {
 }
 
 p {
-	padding: .4em 0 .8em 0;;
+	padding: 0 0 1em 0;;
 	margin: 0;
 }
 ol li {
@@ -482,7 +482,7 @@ div.menu ul.menu li.menuAdmin{
 	color: #cc4444;
 }
 #assignments a:hover {
-	color: #04859D;
+	color: #04859D
 }
 .current{
 	border: thin solid #C3C3E5;
@@ -527,12 +527,10 @@ div.menu ul.menu li.menuAdmin{
 }
 
 #otherMedia ol li a[href*="http://"]{
-    border-left: darkblue solid medium;
-    border-bottom: darkblue solid medium;
     padding-left: 1em;
     padding-right: 1em;
-    
 }
+
 
 
 #otherMedia ol li audio{
