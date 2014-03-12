@@ -22,7 +22,7 @@ color: white;
         font-weight: lighter;
 }
 
-header a:link {
+header a:link, header a:visited, header a, aside a:link, aside a:visited, aside a, nav a:link, nav a:visited, nav a {
     color: #FFFFFF;
 } 
 
