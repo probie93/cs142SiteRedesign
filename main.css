@@ -229,7 +229,7 @@ display:none;
 	padding: 1em;*/
 }
 .menuLink a:hover{
-	
+		color:#4869D6;
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
@@ -255,7 +255,7 @@ display:none;
 } 
 
 #mainContent a:visited{
-	color: #ffaa11;
+	color: #BF9330;
 }
 
 
@@ -810,7 +810,9 @@ border: 3px solid black;
 #studentInfo a:visited {
 	color: #FFFFFF;
 }
-
+#studentInfo a:hover {
+	color: #4869D6;
+}
 .newGroup{
 	border-top: thick solid black;
 }
@@ -1183,7 +1185,6 @@ because with max width
 	padding: 2em;
 }
 .menuLink a:hover{
-	
 	padding: 2em;	
 }
 
