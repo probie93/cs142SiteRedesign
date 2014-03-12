@@ -286,13 +286,7 @@ div[style*="background"], .code{
 /* -------------------------- Grades ---------------------------------------- */
 
 /* -- used for automatic grading -- */
-.certain{
-	background: #66aa66;
-}
 
-.uncertain{
-	background: #fff000;
-}
 /* -------------------------------- */
 
 td.comments {
@@ -307,23 +301,11 @@ td.grade {
     width: 86px;
 }
 
-.failing {
-	background-color: red !important;
-}
-
 #GradeCriteria{
   top: 75px;
 	margin-bottom: 2em;
 }
 
-.GradesReleased .highlight {
-	color: #000000;
-}
-
-.NotGraded {
-	background-color: #aa0000; 
-	color: #ffffcc;
-}
 #listStudents span.NotGraded {
 	background-color: #aa0000; 
 	color: #ffffcc;
