@@ -22,7 +22,7 @@ color: white;
         font-weight: lighter;
 }
 
-header a:link, header a:visited {
+header a:link {
     color: #FFFFFF;
 } 
 
@@ -150,10 +150,6 @@ display:none;
 	display:inline;
 }	
 
-#studentGrade a:visited{
-	color: navy;
-}	
-
 #classRank{
 	display:inline;
 }
@@ -215,14 +211,6 @@ display:none;
 	padding: 1em;*/
 }
 
-.menuLink a:visited{
-	/*background-color: #D8DFEA;
-	border-left: thin solid #3B5998;
-	border-top: thin solid #3B5998;
-	border-right: thin solid #3B5998;
-	color: navy;
-	padding: 1em;*/
-}
 .menuLink a:hover{
 		color:#4869D6;
 }
@@ -248,11 +236,6 @@ display:none;
 	padding-bottom: 50px;  /* must be same height as the footer */
     margin: auto;
 } 
-
-#mainContent a:visited{
-	color: #BF9330;
-}
-
 
 /*hilite me div goes out of bounds :( */
 div[style*="background"], .code{
@@ -401,11 +384,6 @@ div.menu ul.menu li.menuAdmin{
 	width: 170px;
 }
 
-
-#listStudents a:visited {
-	color: navy;
-}
-
 #listStudents a:hover {
 	background: #fffae1;
 	border: 0;
@@ -422,7 +400,7 @@ div.menu ul.menu li.menuAdmin{
  	width: 172px;
 }
 
-#listStudents span.current, #listStudents span.current a:visited{
+#listStudents span.current {
 	background-color: #fffae1;
 	border-top: 4px dashed #3B5998;
 	border-right: 0; 
@@ -802,9 +780,7 @@ border: 3px solid black;
 #studentInfo a:link {
 	color: #FFFFFF;
 }
-#studentInfo a:visited {
-	color: #FFFFFF;
-}
+
 #studentInfo a:hover {
 	color: #4869D6;
 }
@@ -1034,7 +1010,7 @@ h1{
 	padding:10px;
 }
 
-#header a:link, #header a:visited{
+#header a:link {
 	color: #fff;
 }
 
@@ -1175,10 +1151,6 @@ because with max width
 	padding: 2em;
 }
 
-.menuLink a:visited{
-	
-	padding: 2em;
-}
 .menuLink a:hover{
 	padding: 2em;	
 }
