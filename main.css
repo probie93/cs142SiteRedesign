@@ -425,6 +425,10 @@ div.menu ul.menu li.menuAdmin{
 	padding: 0 1em 2em 0;
 }
 
+#slide a:hover {
+	color: #04859D;
+}
+
 #slide h1:first-child {
     border-bottom: 1px solid #000000;
     float: left;
@@ -472,10 +476,14 @@ div.menu ul.menu li.menuAdmin{
     height: 5em;
 }
 /* -------------------  Assignment / Lectures pages  ------------------------ */
+
+
 .assignment a{
 	color: #cc4444;
 }
-
+#assignments a:hover {
+	color: #04859D;
+}
 .current{
 	border: thin solid #C3C3E5;
 	font-weight: bold;
