@@ -272,6 +272,10 @@ div[style*="background"], .code{
 
 /* -------------------------------- */
 
+body#grades article a {
+    color: black !important;
+}
+
 td.comments {
     width: 657px;
 }
