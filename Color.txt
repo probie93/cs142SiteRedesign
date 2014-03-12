@@ -1,0 +1,8 @@
+Primary Color:(Light Blue)
+04859D	206876	015666	37B6CE	5FBDCE
+Secondary Color A:(Dark Blue, Purlple)
+1437AD	2C4081	061F70	4869D6	6E86D6
+Secondary Color B:(Orange)
+FFB000	BF9330	A67200	FFC440	FFD373
+Complementary Color:(Gold)
+FF7C00	BF7630	A65100	FF9D40	FFB773

@@ -1006,7 +1006,7 @@ ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; f
 ul#icons span.ui-icon {float: left; margin: 0 4px;}
 
 body{
-	background-color: #dcdbd9;
+	background-color: #04859D;
 	color: #2C2C2C;
 	font: normal 100% Cambria, Georgia, serif;
 	width: 960px;
@@ -1063,18 +1063,6 @@ because with max width
 /*reset items for larger screens
 
 /* greater than 600 px wide, 600 / 16 = 37.5 */
-@media screen and (min-width: 37.5em){
-    
-    
-}
-
-
-/* greater than 900 px wide, 900 / 16 = 56.25 */
-/* Retina Display  */
-@media screen and (min-width: 56.25em) and (min-device-pixel-ratio: 2){
-    
-    
-}
 
 
 
@@ -1231,7 +1219,6 @@ because with max width
 /*************************************************/
 @media screen and (min-width: 1200px){
 	body{
-		background-color: green;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
 		width: 1200px;
