@@ -295,11 +295,6 @@ div[style*="background"], .code{
 }
 /* -------------------------------- */
 
-.avggrade {
-	background-color: #ffffcc !important;
-	color: #ffcccc;
-}
-
 td.comments {
     width: 627px;
 }
@@ -319,11 +314,6 @@ td.grade {
 #GradeCriteria{
   top: 75px;
 	margin-bottom: 2em;
-}
-
-.GradesReleased {
-	background-color: #66cc00 !important; 
-	color: #ffffff !important;
 }
 
 .GradesReleased .highlight {
