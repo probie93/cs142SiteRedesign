@@ -39,8 +39,12 @@ article a{
     color: #000000;
 }
 
-a:hover {
+header a:hover, nav a:hover, aside a:hover {
     color:  #4869D6 !important;
+}
+
+article a:hover {
+    color: #0000FF !important;
 }
 
 code{
@@ -249,10 +253,6 @@ div[style*="background"], .code{
 /* -- used for automatic grading -- */
 
 /* -------------------------------- */
-
-body#grades article a {
-    color: black !important;
-}
 
 td.comments {
     width: 657px;
