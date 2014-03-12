@@ -459,6 +459,12 @@ div.menu ul.menu li.menuAdmin{
     color: red;
 }
 
+#slide h2:nth-child(2) {
+    float: left;
+    text-align: right;
+    width: 70%;
+}
+
 #slide h2:nth-child(4) {
     font-size: 12pt;
     margin-bottom: 0;
