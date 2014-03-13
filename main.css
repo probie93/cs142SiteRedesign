@@ -325,6 +325,11 @@ table#grading, table#grading td, table#grading th{
 	border-collapse: collapse;
 }
 
+table.standard br {
+    display: block;
+    margin-top: 5px;
+}
+
 .standard th {
 	border-color: black;
 	color: white;
@@ -364,10 +369,6 @@ tr.GradesReleased > td:nth-child(4n-2), tr.NotGraded > td:nth-child(4n-2) {
 
 .standard tr:nth-child(19n-13) {
     display: none;
-}
-
-.comments > br {
-    line-height: 0;
 }
 
 table.standard td, table.standard th {
