@@ -386,11 +386,11 @@ table.standard td, table.standard th {
 }
 
 table.standard tr:hover {
-    background-color: #A3FFFF;
+    background-color: #A3DCE7;
 }
 
 #butSubmit {
-    background-color: #04859D;
+    background-color: #A3FFFF;
     border: medium none;
     cursor: pointer;
     height: 25px;
@@ -593,7 +593,6 @@ div.menu ul.menu li.menuAdmin{
     background-color: #A3DCE7;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-top: none;
 }
 
 #otherMedia ol li a[href*="http://"]{
@@ -860,6 +859,12 @@ label.submith1 {
     font-size: 16pt;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#chooseAssignment input {
+    background-color: #A3FFFF;
+    border: none;
+    height: 23px;
 }
 
 /* ===================  Main Content Section  =============================== */
