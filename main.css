@@ -32,7 +32,6 @@ body {
 	width:100%;
 	background:#fff;
 	min-width:600px;
-	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
 }
 
 article a{
@@ -391,10 +390,13 @@ table.standard tr:hover {
 }
 
 #butSubmit {
+    background-color: #04859D;
+    border: medium none;
     cursor: pointer;
-    border: none;
-    background-color: #0000FF;
     height: 25px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
 }
 
 /* ===================  Student List Section  =============================== */
