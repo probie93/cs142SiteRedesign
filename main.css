@@ -85,6 +85,10 @@ ol ol li {
 
 }
 
+#submit ol li{
+    padding-bottom: 0;
+}
+
 
 /* ===================  Header  Section  ==================================== */
 #header {
@@ -777,6 +781,11 @@ border: 3px solid black;
 	width: 80%;
 }
 
+label.submith1 {
+    color: #FF0000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Class List Page (Admin)  ---------------------------- */
 .highlight{
