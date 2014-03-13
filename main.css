@@ -290,7 +290,7 @@ div[style*="background"], .code{
 /* -------------------------------- */
 
 td.comments {
-    width: 657px;
+    width: 649px;
 }
 
 td.category {
@@ -318,6 +318,7 @@ td.grade {
 	background-color: #fff;
         color: #000;
 }
+
 table#grading{
 	margin: auto;
 }
@@ -356,7 +357,8 @@ table.standard form br {
 	border-color: black;
 	color: white;
 	border: solid #000 1px;
-	padding: 4px; 
+	padding: 4px;
+        font-weight: lighter;
 }
 
 .standard td {
@@ -394,6 +396,7 @@ tr.GradesReleased > td:nth-child(4n-2), tr.NotGraded > td:nth-child(4n-2) {
 
 table.standard td, table.standard th {
     color: #000000;
+    font-weight: leighter;
 }
 
 table.standard tr:hover {
@@ -497,9 +500,8 @@ div.menu ul.menu li.menuAdmin{
 }
 
 #slide h2:nth-child(2) {
-    color: #FF0000;
+    color: #0000FF;
     float: right;
-    font-weight: bold;
     text-align: right;
 }
 
