@@ -242,8 +242,15 @@ display:none;
 	overflow:auto;
 	padding: 4em;
 	padding-bottom: 50px;  /* must be same height as the footer */
-    margin: auto;
+        margin: auto;
 } 
+
+article#mainContent > h2 {
+    border-bottom: 1px dashed;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /*hilite me div goes out of bounds :( */
 div[style*="background"], .code{
@@ -490,8 +497,8 @@ div.menu ul.menu li.menuAdmin{
 }
 
 .AssignmentsLink {
-    border: 1px solid;
-    padding: 0;
+    padding-left: 0;
+    padding-top: 1em;
 }
 
 .current{
