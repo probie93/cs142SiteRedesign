@@ -19,7 +19,6 @@ color: white;
 @import url('reset.css');
 * {
         font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-        font-weight: lighter;
 }
 
 header a:link, header a:visited, header a, aside#studentInfo a:link, aside#studentInfo a:visited, aside#studentInfo a, nav a:link, nav a:visited, nav a {
@@ -64,7 +63,7 @@ h2, h2 a{
 }
 
 h3{
-	font-size:1.5em;
+	font-size:1.25em;
 }
 
 img {
@@ -245,6 +244,18 @@ display:none;
 } 
 
 article#mainContent > h2 {
+    border-bottom: 1px dashed;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+article#mainContent > h3 {
+    border-bottom: 1px dashed;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+article#mainContent > h2:first-of-type {
     border-bottom: 1px dashed;
     font-weight: bold;
     text-align: center;
@@ -826,13 +837,33 @@ border: 3px solid black;
 .highlightRed{ 
 	background-color: #cc0033;
 	color: #ffffff;
+	padding: 2px 5px;
 }
 
 #syllabus table, #syllabus table td, #syllabus table th{
 	border: 1px solid gray; 
-	padding: 3px; 
+	padding: 6px; 
 }
-
+#mainContent > table:nth-child(3){
+	margin:auto;
+}
+#mainContent > p:nth-child(2){
+	text-align:center;
+}
+#mainContent > p:nth-child(11),#mainContent > p:nth-child(12){
+	margin-left:2em;
+}
+#mainContent > ul +p {
+	margin-top:1em;
+}
+#mainContent > table#grading{
+	font-size:125%;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+#mainContent > a#attendance{
+font-weight: bold;
+}
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Submit Assignment Page  ----------------------------- */
 #filesSubmited{

@@ -21,6 +21,13 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
+	font-weight:lighter;
+}
+strong, b {
+font-weight: bold;
+}
+th {
+font-weight: bold;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
