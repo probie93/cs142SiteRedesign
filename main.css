@@ -520,6 +520,14 @@ div.menu ul.menu li.menuAdmin{
 	padding: .5em;
 }
 
+.title.summary {
+    padding: 0 0 .5em;
+}
+
+.title.summary:last-child {
+    padding-bottom: 0;
+}
+
 .LecturesLink{ /* also used on calendar */  
 	list-style-type: none;
 }
@@ -562,6 +570,14 @@ div.menu ul.menu li.menuAdmin{
 	float: left;
 	padding-right: .2em;
 	margin-top: 0;
+}
+
+#otherMedia > h1 {
+    display: none;
+}
+
+#otherMedia > ol {
+    padding-top: 1em;
 }
 
 .groupMembers li{
