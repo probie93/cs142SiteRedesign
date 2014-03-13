@@ -321,7 +321,6 @@ table#grading, table#grading td, table#grading th{
 .standard {
 	color: Black;
 	text-align: left;
-	background-color: white;
 	border-collapse: collapse;
 }
 
@@ -347,7 +346,6 @@ table.standard form br {
 	border-color: black;
 	color: white;
 	border: solid #000 1px;
-	background-color:  #3b90cc;
 	padding: 4px; 
 }
 
@@ -385,8 +383,18 @@ tr.GradesReleased > td:nth-child(4n-2), tr.NotGraded > td:nth-child(4n-2) {
 }
 
 table.standard td, table.standard th {
-    background-color: #FFFFFF;
     color: #000000;
+}
+
+table.standard tr:hover {
+    background-color: #A3FFFF;
+}
+
+#butSubmit {
+    cursor: pointer;
+    border: none;
+    background-color: #0000FF;
+    height: 25px;
 }
 
 /* ===================  Student List Section  =============================== */
