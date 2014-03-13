@@ -330,6 +330,19 @@ table.standard br {
     margin-top: 5px;
 }
 
+table.standard form br {
+    margin-top: 0px;
+}
+
+#hypoGrade {
+    width: 22px;
+    margin-right: 5px;
+}
+#hypoGrade, #butSubmit {
+    position: relative;
+    top: 1px;
+}
+
 .standard th {
 	border-color: black;
 	color: white;
