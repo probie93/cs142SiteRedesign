@@ -252,6 +252,20 @@ article#mainContent > h2 {
     text-transform: uppercase;
 }
 
+article#mainContent > h1 {
+    border-bottom: 1px dashed;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#submit > h1{
+    border-bottom: 1px dashed;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /*hilite me div goes out of bounds :( */
 div[style*="background"], .code{
     width: 80% !important;
