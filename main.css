@@ -21,6 +21,10 @@ color: white;
         font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+article h1, h2, h3, h4, h5, h6, th {
+    color: #FFB000;
+}
+
 header a:link, header a:visited, header a, aside#studentInfo a:link, aside#studentInfo a:visited, aside#studentInfo a, nav a:link, nav a:visited, nav a {
     color: #FFFFFF;
 } 
@@ -846,9 +850,10 @@ label.required {
 	color: #adadad;
 }
 .highlightRed{ 
-	background-color: #cc0033;
+	background-color: #04859D;
 	color: #ffffff;
-	padding: 2px 5px;
+	padding: 0px 5px;
+        border-radius: 15px;
 }
 
 #syllabus table, #syllabus table td, #syllabus table th{
