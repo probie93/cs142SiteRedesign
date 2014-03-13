@@ -488,6 +488,12 @@ div.menu ul.menu li.menuAdmin{
 #assignments a:hover {
 	color: #04859D
 }
+
+.AssignmentsLink {
+    border: 1px solid;
+    padding: 0;
+}
+
 .current{
 	border: thin solid #C3C3E5;
 	font-weight: bold;
@@ -525,9 +531,16 @@ div.menu ul.menu li.menuAdmin{
 #otherMedia ol li{
 	list-style-type: none;
 	clear: both;
-	border-top: thin dotted  #999999;
+	border-top: thin dotted  #A3DCE7;
 	padding-top: .4em;
 	padding-bottom: .4em;
+}
+
+#otherMedia ol li:hover{
+    background-color: #A3DCE7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
 }
 
 #otherMedia ol li a[href*="http://"]{
