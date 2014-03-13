@@ -592,26 +592,26 @@ div.menu ul.menu li.menuAdmin{
 	list-style-type: none;	
 }
 
-#otherMedia ol li{
-	list-style-type: none;
-	clear: both;
-	border-top: thin dotted  #A3DCE7;
-	padding-top: .4em;
-	padding-bottom: .4em;
+#otherMedia ol li img {
+    display: none;
 }
 
-#otherMedia ol li:hover{
+#otherMedia ol li {
+    border-top: thin dotted #A3DCE7;
+    clear: both;
+    list-style-type: none;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    text-indent: 0em;
+    margin-left: 0em;
+}
+
+#otherMedia ol li:hover {
     background-color: #A3DCE7;
-    border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
 }
-
-#otherMedia ol li a[href*="http://"]{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-
 
 #otherMedia ol li audio{
 /*	float: left; */
@@ -822,6 +822,15 @@ border: 3px solid black;
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Call in sick Page     ------------------------------- */
 
+fieldset.radio label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.required {
+    display: block;
+    margin-bottom: 3px;
+}
 
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Syllabus Page         ------------------------------- */
@@ -894,8 +903,11 @@ label.submith1 {
 
 #chooseAssignment input {
     background-color: #A3FFFF;
-    border: none;
+    border: medium none;
     height: 23px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
 }
 
 /* ===================  Main Content Section  =============================== */
