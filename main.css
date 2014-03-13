@@ -1202,6 +1202,61 @@ because with max width
 /* greater than 600 px wide, 600 / 16 = 37.5 */
 
 
+@media screen and (max-width: 1200px){
+ 	header{
+		padding: 2px 0px 13px 0px;
+		margin: 0px;
+		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+		margin: -3px 0px 0px 0px;
+		position: fixed;
+		width: 956px;
+		color: white;
+		border-radius:0px 0px 15px 15px;
+		opacity: 0.8;
+		padding-left: 4px;
+	}
+	#studentInfo{
+		position: fixed;
+		top: 36px;
+		color: white;
+		margin-left: 11px;
+	}
+		#mainContent{
+		padding-top: 70px;
+	}  
+	#classtitle{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 950px){
+	body{
+		width: 750px;
+	}
+	#mainMenu{
+		left: 35%;
+		margin: 2px;
+	}
+	header{
+	width: 746px;
+	}
+	#classtitle > a.url{
+		display:none;
+	}
+}
+@media screen and (max-width: 768px){
+	body{
+		background-color: red;
+		color: #2C2C2C;
+		font: normal 100% Cambria, Georgia, serif;
+		margin: 0 auto;
+	}
+	#mainMenu{
+		left: 25%;
+	}
+	#toolmenu:before {
+		content: 'max-width: 768px';
+	}	
+}
 
 
 @media screen and (max-width: 320px){
@@ -1212,7 +1267,6 @@ because with max width
 		width: 300px;
 		margin: 0 auto;
 	}
-		
 	#toolmenu ol li{
 		display: none;
 		float:none;
@@ -1223,6 +1277,41 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 320px';
 	}
+}
+@media screen and (max-width: 650px){
+	body{
+		background-color: grey;
+		color: #2C2C2C;
+		font: normal 100% Cambria, Georgia, serif;
+		width: 520px;
+		margin: 0 auto;
+	}
+	header{
+		width: 596px;
+	}
+	#classtitle{
+	margin-bottom: 37px;
+	}
+	#toolmenu{
+		position: fixed;
+		top: 3px;
+		left: 181px;
+	}
+	#mainMenu{
+		left: 1%;
+		top: 25px;
+	}
+	#studentInfo{
+		top: 57px;
+	}
+	#toolmenu{
+		float:none;
+		margin-top: 0;
+		padding: .4em;
+	}
+	#toolmenu:before {
+		content: 'max-width: 520px';
+	}	
 }
 
 
@@ -1244,37 +1333,6 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 480px';
 	}
-}
-
-@media screen and (max-width: 520px){
-	body{
-		background-color: grey;
-		color: #2C2C2C;
-		font: normal 100% Cambria, Georgia, serif;
-		width: 520px;
-		margin: 0 auto;
-	}	
-	#toolmenu{
-		float:none;
-		margin-top: 0;
-		padding: .4em;
-	}
-	#toolmenu:before {
-		content: 'max-width: 520px';
-	}	
-}
-
-@media screen and (max-width: 768px){
-	body{
-		background-color: red;
-		color: #2C2C2C;
-		font: normal 100% Cambria, Georgia, serif;
-		width: 750px;
-		margin: 0 auto;
-	}	
-	#toolmenu:before {
-		content: 'max-width: 768px';
-	}	
 }
 
 /**************************************************/
@@ -1313,40 +1371,8 @@ because with max width
 
 /* ------------------  admin menu  ------------------------------------------ */
 #adminMenu{
-	
-	
-	
 	margin: 2em;
-
 }
-
-
-}
-@media screen and (max-width: 1200px){
- 	header{
-		padding: 2px 0px 13px 0px;
-		margin: 0px;
-		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
-		margin: -3px 0px 0px 0px;
-		position: fixed;
-		width: 956px;
-		color: white;
-		border-radius:0px 0px 15px 15px;
-		opacity: 0.8;
-		padding-left: 4px;
-	}
-	#studentInfo{
-		position: fixed;
-		top: 36px;
-		color: white;
-		margin-left: 11px;
-	}
-		#mainContent{
-		padding-top: 70px;
-	}  
-	#classtitle{
-		margin-top: 10px;
-	}
 }
 /*************************************************/
 @media screen and (min-width: 1200px){
