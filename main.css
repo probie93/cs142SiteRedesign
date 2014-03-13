@@ -783,9 +783,11 @@ border: 3px solid black;
 
 label.submith1 {
     color: #FF0000;
+    font-size: 16pt;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Class List Page (Admin)  ---------------------------- */
 .highlight{
@@ -841,6 +843,11 @@ overflow:auto;
 
 #frmDemo, #tblValidation .odd {background-color: #DBE6DD;}
 #frmDemo, #tblValidation .even {background-color: #ffffff;}
+
+#frmSubmit ol {
+    padding-left: 1.3em;
+    padding-top: 2em;
+}
 
 #sampleData table, #sampleData td, #sampleData th {
 	border-collapse:collapse; 
@@ -912,6 +919,11 @@ fieldset.slider label{
 fieldset.slider input{
 	width: 3em;
 	text-align: center;
+}
+
+fieldset.checkbox {
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 #gradeForm input[type=text]{
