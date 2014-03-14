@@ -852,8 +852,8 @@ label.required {
 .highlightRed{ 
 	background-color: #04859D;
 	color: #ffffff;
-	padding: 0px 5px;
-        border-radius: 15px;
+	padding: 2px 5px;
+    border-radius: 15px;
 }
 
 #syllabus table, #syllabus table td, #syllabus table th{
