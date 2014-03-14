@@ -1249,7 +1249,7 @@ because with max width
 		margin-left: 11px;
 	}
 		#mainContent{
-		padding-top: 70px;
+		padding-top: 82px;
 	}  
 	#classtitle{
 		margin-top: 10px;
@@ -1287,6 +1287,9 @@ because with max width
         header {
             width: 616px;
         }
+	#mainContent{
+		padding-top: 95px;
+	}
 }
 
 
@@ -1428,7 +1431,7 @@ because with max width
 		margin-left: 15px;
 	}
 	#mainContent{
-            padding-top: 70px;
+            padding-top: 82px;
 	}  
 	
 }
