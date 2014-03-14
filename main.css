@@ -1203,13 +1203,18 @@ because with max width
 
 
 @media screen and (max-width: 1200px){
+        
+    body {
+        width: 950px;
+    }
+        
  	header{
 		padding: 2px 0px 13px 0px;
 		margin: 0px;
 		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
 		margin: -3px 0px 0px 0px;
 		position: fixed;
-		width: 956px;
+		width: 946px;
 		color: white;
 		border-radius:0px 0px 15px 15px;
 		opacity: 0.8;
@@ -1245,17 +1250,21 @@ because with max width
 }
 @media screen and (max-width: 768px){
 	body{
-		background-color: red;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
 		margin: 0 auto;
+                width: 620px;
 	}
 	#mainMenu{
 		left: 25%;
 	}
 	#toolmenu:before {
 		content: 'max-width: 768px';
-	}	
+	}
+        
+        header {
+            width: 616px;
+        }
 }
 
 
@@ -1280,7 +1289,6 @@ because with max width
 }
 @media screen and (max-width: 650px){
 	body{
-		background-color: grey;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
 		width: 520px;
@@ -1315,7 +1323,7 @@ because with max width
 }
 
 
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 480px){
 	body{
 		background-color: black;
 		color: #2C2C2C;
@@ -1339,17 +1347,18 @@ because with max width
 @media screen and (max-width: 520px){
 /* ===================  Main Navigation Section  ============================ */
 #mainMenu{
-	margin: 2em;	
+	margin-top: 2em;
 }
 
 #mainMenu a, #adminMenu a{
 	text-decoration: none;
+        color: #000000;
 }
 
 .menuLink{
 	display: block;
-	min-height:4em;
-	width:100%;
+	min-height: 2em;
+	width: 100%;
 }
 .menuLink a{	
 	border-left: thin solid gray;
@@ -1361,12 +1370,15 @@ because with max width
 }
 
 .menuLink a:link{
-	
 	padding: 2em;
 }
 
 .menuLink a:hover{
-	padding: 2em;	
+	padding: 2em;
+}
+
+#mainMenu ol {
+    margin-top: 40px;
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
