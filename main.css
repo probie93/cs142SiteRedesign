@@ -1347,38 +1347,8 @@ because with max width
 @media screen and (max-width: 520px){
 /* ===================  Main Navigation Section  ============================ */
 #mainMenu{
-	margin-top: 2em;
-}
-
-#mainMenu a, #adminMenu a{
-	text-decoration: none;
-        color: #000000;
-}
-
-.menuLink{
-	display: block;
-	min-height: 2em;
-	width: 100%;
-}
-.menuLink a{	
-	border-left: thin solid gray;
-	border-top: thin solid gray;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-}
-
-.menuLink a:link{
-	padding: 2em;
-}
-
-.menuLink a:hover{
-	padding: 2em;
-}
-
-#mainMenu ol {
-    margin-top: 40px;
+	width:500px;
+	
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
