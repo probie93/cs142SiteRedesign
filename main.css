@@ -128,7 +128,8 @@ header{
 #toolmenu{
 	text-align: right;
 	padding-right: 20px;
-	font-size: 12pt;
+	padding-top: 3px;
+	font-size: 10pt;
 	float:right;
 }
 #toolmenu ol{
@@ -226,16 +227,37 @@ display:none;
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
+#adminMenu:after
+{ 
+content:"Admin Menu";
+color: white;
+
+}
+#adminMenu:hover ol
+{ 
+display:block;
+}
 #adminMenu{
-	border-bottom: thin solid #3B5998;
-	float:left;
+	color: black;
 	font-size: 10pt;
 	margin-top: 1em;
 	margin-left: 0;
-	min-width: 55em;
 	padding-bottom: 1.3em;
-}
+	position: fixed;
+	top: 47px;
+	left: 82%;
 
+}
+#adminMenu ol{
+	padding-left:12px;
+	display:none;
+	background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+	border-radius:0px 0px 15px 15px;
+}
+#adminMenu ol li{
+	display:block;
+
+}
 
 /* ===================  Main Content Section  =============================== */
 #mainContent {
@@ -1209,7 +1231,7 @@ because with max width
     }
         
  	header{
-		padding: 2px 0px 13px 0px;
+		padding: 2px 0px 27px 0px;
 		margin: 0px;
 		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
 		margin: -3px 0px 0px 0px;
@@ -1320,6 +1342,9 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 520px';
 	}	
+	#adminMenu{
+		top:0;
+	}
 }
 
 
@@ -1385,7 +1410,7 @@ because with max width
 		margin: -1px;
 	}
 	header{
-		padding: 2px 0px 13px 0px;
+		padding: 2px 0px 27px 0px;
 		margin: 0px;
 		background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
 		margin: -17px 0px 0px 0px;
