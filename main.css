@@ -422,7 +422,7 @@ tr.GradesReleased > td:nth-child(4n-2), tr.NotGraded > td:nth-child(4n-2) {
 
 table.standard td, table.standard th {
     color: #000000;
-    font-weight: leighter;
+    font-weight: lighter;
 }
 
 table.standard tr:hover {
