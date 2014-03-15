@@ -1129,7 +1129,7 @@ footer p{
 
 /* -------  i put this here so you can have your name show up  -------------- */
 footer #author:after{
-	content:"Josh Dyke, Jack Montfort, Matt Wolf";
+	content:"Josh Dyke, Jack Montfort and  Matt Wolf";
 }
 
 #ProcessingTime{
